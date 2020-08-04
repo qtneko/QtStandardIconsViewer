@@ -8,4 +8,4 @@ install:
   - set PATH=%QTDIR%\bin;%PATH%
 build_script:
   - qmake QtStandardIconsViewer.pro
-  - make
+  - nmake
