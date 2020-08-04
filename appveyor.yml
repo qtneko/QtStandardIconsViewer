@@ -1,0 +1,10 @@
+configuration: Release
+
+platform: x64
+
+install:
+  - set QTDIR=C:\Qt\5.15.0\msvc2019_64
+  - set PATH=%QTDIR%\bin;%PATH%
+build_script:
+  - qmake QtStandardIconsViewer.pro
+  - make
